@@ -49,7 +49,7 @@ TORCH_STR_SUPPORTED := false
 TARGET_NEEDS_DOZE_FIX := false
 
 # Charging
-BYPASS_CHARGE_SUPPORTED := true
+BYPASS_CHARGE_SUPPORTED := false
 
 # [experimental] userspace simple lmk trial version 
 # of https://github.com/kerneltoast/android_kernel_google_gs201/blob/16.0.0-sultan/drivers/android/simple_lmk.c ©kerneltoast
