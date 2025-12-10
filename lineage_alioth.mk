@@ -37,6 +37,9 @@ PERF_ANIM_OVERRIDE := false
 GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/freq_table_mhz
 GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/min_clock_mhz
 
+# Touch boost
+TARGET_TOUCH_BOOST_SUPPORTED := true
+
 # High Brightness Mode (HBM)
 HBM_SUPPORTED := true
 HBM_NODE := /sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm
@@ -45,13 +48,13 @@ HBM_NODE := /sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm
 TORCH_STR_SUPPORTED := false
 
 # doze fix
-# for devices with doze/sensor related issues 
+# for devices with doze/sensor related issues
 TARGET_NEEDS_DOZE_FIX := false
 
 # Charging
 BYPASS_CHARGE_SUPPORTED := false
 
-# [experimental] userspace simple lmk trial version 
+# [experimental] userspace simple lmk trial version
 # of https://github.com/kerneltoast/android_kernel_google_gs201/blob/16.0.0-sultan/drivers/android/simple_lmk.c ©kerneltoast
 # Targets devices with prebuilt kernels or uslmk support across kernels
 TARGET_USES_USLMK := false
