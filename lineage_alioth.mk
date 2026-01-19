@@ -75,7 +75,7 @@ TARGET_INCLUDES_LOS_PREBUILTS := true
 endif
 
 # BCR
-TARGET_PREBUILT_BCR := false
+TARGET_PREBUILT_BCR := true
 
 PRODUCT_NAME := lineage_alioth
 PRODUCT_DEVICE := alioth
