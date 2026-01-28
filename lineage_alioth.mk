@@ -37,7 +37,8 @@ PERF_ANIM_OVERRIDE := false
 GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/freq_table_mhz
 GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/min_clock_mhz
 
-# Touch boost
+# Display
+TARGET_SUPPORTED_REFRESH_RATES := 60,120
 TARGET_TOUCH_BOOST_SUPPORTED := true
 
 # High Brightness Mode (HBM)
